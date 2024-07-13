@@ -1,16 +1,20 @@
 [package]
 name = "monke_rust"
 version = "0.1.0"
+readme = "README.md"
+repository = "https://github.com/petkiii/monke_rust"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 clap = { version = "4.5.9", features = ["derive"] }
+serde = "1.0"
+serde_json = "1.0.120"
 rand = "0.8.5"
-# anyhow = "1.0.86"
 aes = "0.8.4"
 pbkdf2 = "0.12.2"
 sha1 = "0.10.6"
 flate2 = "1.0.30"
 cbc = { version = "0.1.2", features = ["alloc"] }
+
+[profile.release]
+codegen-units = 1
