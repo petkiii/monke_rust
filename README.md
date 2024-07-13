@@ -1,5 +1,5 @@
 # monke_rust
-monke_rust is a rust CLI tool for unpacking/packing the the save file of BTD 6 inspired by: https://github.com/codeshaunted/monke.
+monke_rust is a rust CLI tool for unpacking/packing the save file of BTD 6 inspired by: https://github.com/codeshaunted/monke.
 
 # Usage
 ```
